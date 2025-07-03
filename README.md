@@ -47,11 +47,21 @@ timestamp                  DATETIME
 	•	Batch-wise writing to MySQL.
 	•	Easy to extend with Apache Airflow and dashboards.
 
+ ## 📁 Project Files
+
+- `kafka_order_producer.py` – Sends sample order messages to Kafka topic `orders`.
+- `spark_to_mysql.py` – Reads Kafka stream and stores processed data in MySQL.
+- `spark_order_consumer.py` – (Optional) Displays Kafka messages using Spark, for testing/debugging.
+
 🙋🏻 About Me
 
 I’m a final-year B.Tech student in Data Science 🎓
 This project reflects my hands-on learning in real-time data engineering and stream processing.
 Actively exploring opportunities to learn and grow in data infrastructure and big data pipelines 🚀
+
+🔗 Connect with Me
+• 💼 http://linkedin.com/in/preetambaloda
+
 
 
 
